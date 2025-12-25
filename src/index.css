@@ -1,0 +1,346 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f4ff;
+  overflow: hidden;
+}
+
+
+.Header {
+  background-color: #8CA9FF;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  color: aliceblue;
+  position: fixed;
+}
+
+.menu-icon {
+  font-size: 26px;
+  cursor: pointer;
+  color: white;
+  margin-right: 16px;
+}
+
+
+.app-layout {
+  display: flex;
+  height: calc(100vh - 60px);
+  
+}
+
+
+.Sidebar {
+  width: 220px;
+  background-color: #AAC4F5;
+  padding: 20px;
+  position: fixed;
+  top:60px;
+  left:0;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.SidebarList {
+  list-style: none;
+  padding: 0;
+}
+
+.SidebarList .row {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.SidebarList .row:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}
+
+
+.main-content {
+  position: relative;
+  margin-top: 60px;         
+  margin-left: 205px;      
+
+  height: calc(100vh - 60px);
+  overflow-y: auto;          
+  overflow-x: hidden;
+
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.Carousel {
+  width: 360px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  height: fit-content;
+}
+
+
+.image-wrapper {
+  position: relative; 
+  width: 100%;
+  height: 200px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.arrow:hover {
+  color: #ddd;
+}
+
+
+.indicators {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: lightgrey;
+}
+
+
+.card-content {
+  background-color: #8b8b8b;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.ImageTitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.ImageDesc {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+.slide-inactive {
+  display: none;
+}
+
+.Card{
+  width: 360px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  height: 345.48px;
+}
+
+
+/* for container 2 */
+.Img-Container2{
+    width:100%;
+    height:200px;
+    border: 1px solid black;
+    border-radius: 5%;
+    object-fit: contain; 
+}
+
+.Image-Box{
+    display:flex;
+    align-items: center;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top:1.5rem;
+
+}
+.Card-Content-Container2{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.Card-Content-Container2 h2{
+    font-size: 16px;
+}
+.Card-Content-Container2 p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* for container  4 */
+.Container4{
+   padding:1.5rem;
+   height: fit-content;
+  }
+.Container4 h2{
+  font-weight: bold;
+  font-size: 2em;
+}
+.Container4 p{
+  font-size: 1em;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+/* for Container 5*/
+.tab-header{
+  display: flex;
+  padding-top: 0.3rem;
+  border-bottom: 2px solid black;
+}
+.tab-btn{
+  flex: 1;
+  padding: 10px ;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  font-weight:bold ;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.tab-btn.active{
+  background-color: #8CA9FF;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 20px;
+  padding-left: 1.3rem;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/*for responsiveness*/
+/* ---------- LARGE TABLETS (≤ 1024px) ---------- */
+@media (max-width: 1024px) {
+
+  .main-content {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 16px;
+  }
+
+  .Carousel {
+    width: 100%;
+  }
+}
+
+/* ---------- TABLETS & MOBILE (≤ 768px) ---------- */
+@media (max-width: 768px) {
+
+  /* HIDE SIDEBAR */
+  .Sidebar {
+    display: none;
+  }
+
+  /* MAIN CONTENT FULL WIDTH */
+  .main-content {
+    margin-left: 0;                 /* remove sidebar space */
+    grid-template-columns: 1fr;     /* 1 card per row */
+    padding: 16px;
+  }
+
+  /* HEADER ADJUSTMENT */
+  .Header {
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: block;                 /* show hamburger */
+  }
+
+  /* CARD WIDTH FIX */
+  .Carousel {
+    width: 100%;
+  }
+}
+
+/* ---------- SMALL MOBILE (≤ 480px) ---------- */
+@media (max-width: 480px) {
+
+  .Header {
+    height: 56px;
+    padding: 0 12px;
+  }
+
+  .main-content {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .ImageTitle {
+    font-size: 16px;
+  }
+
+  .ImageDesc {
+    font-size: 13px;
+  }
+
+  .card-content {
+    padding: 12px;
+  }
+}

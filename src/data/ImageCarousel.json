@@ -1,0 +1,54 @@
+{
+  "slides": [
+    {
+      "src": "src/Images/p1.png",
+      "alt": "Img 1",
+      "title":"Blockhain Based Blue Carbon MRV",
+      "desc":"Blockchain and AI/ML-powered MRV system for blue carbon projects, enabling transparent carbon credit issuance. "
+    },
+    {
+      "src": "src/Images/p2.png",
+      "alt": "Img 2",
+      "title":"MERN STACK JOB PORTAL",
+      "desc":"Built a full-stack job portal with JWT authentication and role-based dashboards for HR and candidates. Automated resume handling, test assignment, and candidate shortlisting using scalable REST APIs."
+    },
+    {
+      "src": "src/Images/p3.png",
+      "alt": "Img 3",
+      "title":"Real-Time Chat Application",
+      "desc":"Developed a WhatsApp-like real-time chat application using Socket.IO for low-latency messaging. Integrated Firebase Storage for secure media sharing and optimized backend performance for concurrent users."
+    }
+  ],
+
+
+  "certificates": [
+    {
+      "src": "src/Images/cert1.jpg",
+      "alt": "Cert 1"
+    },
+    {
+      "src": "src/Images/cert2.jpg",
+      "alt": "Cert 2"
+    },
+    {
+      "src": "src/Images/cert3.jpeg",
+      "alt": "Cert 3"
+    }
+    
+  ],
+
+  "logos": [
+    {
+      "src": "src/Images/logo1.jfif",
+      "alt": "Logo 1"
+    },
+    {
+      "src": "src/Images/logo2.jfif",
+      "alt": "Logo 2"
+    },
+    {
+      "src": "src/Images/logo3.jfif",
+      "alt": "Logo 3"
+    }
+  ]
+}
