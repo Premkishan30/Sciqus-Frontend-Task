@@ -1,16 +1,66 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sciqus Frontend Task
 
-Currently, two official plugins are available:
+A fully responsive frontend dashboard built using React and modern CSS, designed to showcase clean UI design, component-based architecture, and real-world dashboard behavior.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features:
+- Fixed header and sidebar layout
+- Sidebar hidden automatically on mobile devices
+- Fully responsive design (Desktop, Tablet, Mobile)
+- Card-based content layout
+- Image carousel with navigation arrows and indicators
+- Tab-based content switching
+- Clean scrolling behavior without layout overlap
 
-## React Compiler
+Tech Stack:
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- CSS Grid & Flexbox
+- React Icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive Behavior:
+Desktop:
+- Sidebar visible
+- Fixed header
+- Grid-based content layout
 
-## Expanding the ESLint configuration
+Mobile:
+- Sidebar hidden
+- Vertical stacking of components
+- Smooth scrolling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Structure:
+src/
+components/
+Header.jsx
+SideBar.jsx
+Container1.jsx
+Container2.jsx
+Container5.jsx
+Images/
+App.jsx
+main.jsx
+index.css
+
+Installation:
+1. Clone the repository
+git clone https://github.com/Premkishan30/Sciqus-Frontend-Task.git
+
+2. Navigate into the project
+cd Sciqus-Frontend-Task
+
+3. Install dependencies
+npm install
+
+4. Run the project
+npm run dev
+
+Author:
+Premkishan Suvarnkar
+Frontend Developer | React | UI Engineering
+GitHub: https://github.com/Premkishan30
+
+License:
+This project is created for educational and demonstration purposes.
