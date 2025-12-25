@@ -4,7 +4,7 @@ const Container2=()=> {
   return (
     <div className="Card">
         <div className="Image-Box">
-        <img src="src/Images/MyPhoto.png" alt="Placeholder" className="Img-Container2"/>
+        <img src="images/MyPhoto.png" alt="Placeholder" className="Img-Container2"/>
         </div>
         <div className="Card-Content-Container2">
             <h2>Premkishan Suvarnkar</h2>
