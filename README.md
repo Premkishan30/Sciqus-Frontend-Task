@@ -1,16 +1,90 @@
-# React + Vite
+# Sciqus Frontend Developer Task – Responsive Portfolio Website 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo Link
+🔗 https://premfrontendtask.netlify.app/
 
-Currently, two official plugins are available:
+## GitHub Repository
+🔗 https://github.com/Premkishan30/Sciqus-Frontend-Task
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is developed as part of the **Sciqus Frontend Developer Task**.
 
-## Expanding the ESLint configuration
+The application is a **fully responsive personal portfolio website** designed to showcase professional profile information, skills, projects, certifications, and social links in a clean and modern dashboard-style layout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The website follows a **responsive design approach**, ensuring smooth usability across **desktop, tablet, and mobile devices**. It demonstrates strong fundamentals of frontend development, UI structuring, and interactive components using core web technologies.
+
+---
+
+## Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+
+---
+
+## Features
+
+### Layout & UI
+- Fixed top header with site title
+- Sidebar navigation with quick access links
+  - GitHub
+  - LinkedIn
+  - Resume
+  - Email
+- Card-based dashboard layout
+- Clean and modern UI with consistent spacing
+- Fully responsive design for all screen sizes
+
+### Profile Section
+- Profile image with brief introduction
+- Professional summary highlighting role and interests
+
+### Skills Section
+- Programming languages
+- Databases
+- Web development technologies
+- Clearly structured and readable format
+
+### Projects Section
+- Project showcase cards
+- Image-based project previews
+- Previous and next navigation controls
+- Project description with technology stack
+
+### Education & Hobbies
+- Tab-based switching between Education and Hobbies
+- Clear academic background display
+- Personal interests section
+
+### Certifications Section
+- Certificate slider with navigation buttons
+- Visual representation of achievements
+
+### Responsiveness
+- Sidebar adapts for smaller screens
+- Containers stack vertically on mobile view
+- Images scale properly without overflow
+- Buttons and text adjust for better readability
+
+---
+
+## Design Highlights
+
+- Dashboard-style portfolio layout
+- Smooth navigation and interactive sliders
+- Well-organized content sections
+- User-friendly interface
+- Optimized for desktop and mobile viewing
+
+---
+
+## Author
+**Premkishan Suvarnkar**
+**4th Year Engineering Student**
+**Full Stack Developer(MERN, SQL, React, Node.js)**
